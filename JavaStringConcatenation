@@ -1,0 +1,11 @@
+//The '+' operator or  concat() operator, can be used between strings to combine them. This is called concatenation.
+
+// using + :
+String firstName = "John";
+String lastName = "Doe";
+System.out.println(firstName + " " + lastName);
+
+//using concat() :
+String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));
